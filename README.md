@@ -1,6 +1,6 @@
 # Todo App
 
-A simple Laravel todo app using MySQL. Task storage, APIs, and the interface will be added in later steps.
+A simple Laravel todo app using MySQL. Task storage is set up; APIs and the interface will be added in later steps.
 
 ## Requirements
 
@@ -15,6 +15,7 @@ A simple Laravel todo app using MySQL. Task storage, APIs, and the interface wil
 3. Create a MySQL database named `todo_app`.
 4. Set your MySQL connection details in `.env`.
 5. Run `php artisan key:generate`.
-6. Run `php artisan serve` and open http://localhost:8000.
+6. Run `php artisan migrate` to create the database tables.
+7. Run `php artisan serve` and open http://localhost:8000.
 
 
