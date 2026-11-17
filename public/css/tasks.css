@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+[hidden] {
+    display: none !important;
+}
+
+#task-message {
+    color: #315f36;
+}
+
+#task-message.error {
+    color: #a12e2e;
+}
+
 body {
     margin: 0;
     background: #f5f5f5;
